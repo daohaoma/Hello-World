@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+<!--
+a:link {
+	color: #990000;
+}
+a:visited {
+	color: #990000;
+}
+a:active {
+	color: #990000;
+}
+-->
+</style></head>
+
+<body>
+
+
+<div id="datu">
+  <div id="dtop">
+<div id="menu">
+          <ul>
+            <li ><a href="index.html">网站首页</a></li>
+            <li ><a href="zy1.html">在线登陆</a></li>
+          </ul>
+		  
+  </div>
+  
+  </div>
+  <div id="daohang1">
+    <table border="1" bgcolor="#FFFFFF" class="ziti">
+      <thead>
+        <tr>
+          <td width="269" height="50">名称</td>
+          <td width="71"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=symbol">代码</a></td>
+          <th width="54"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=lasttrade">最新价</a></th>
+          <th width="46"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=change">涨跌额</a></th>
+          <th width="39"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=chg">涨跌幅</a></th>
+          <th width="32"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=amplitude">振幅</a></th>
+          <td width="81">昨收/今开盘</td>
+          <td width="75">最高/最低价</td>
+          <th width="54"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=volumn">成交量</a></th>
+          <th width="46"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=marketvalue">市值(亿)</a></th>
+          <th width="33"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=pe">市盈率</a></th>
+          <td width="38"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=sector">行业板块</a></td>
+          <td width="60"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=place">上市地</a></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=AAPL&country=usstock" target="_blank" title="苹果公司">苹果公司</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=AAPL&country=usstock" target="_blank">AAPL</a></td>
+          <th>147.66</th>
+          <th>-0.12</th>
+          <th>-0.08%</th>
+          <th>0.52%</th>
+          <td>147.77/147.97</td>
+          <td>148.10/147.33</td>
+          <th>5,875,793</th>
+          <th>7,757.93</th>
+          <th>17.73</th>
+          <td><a href="javascript:void(0);" title="计算机">计算机</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=GOOGL&country=usstock" target="_blank" title="谷歌A类股">谷歌A类股</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=GOOGL&country=usstock" target="_blank">GOOGL</a></td>
+          <th>972.52</th>
+          <th>+3.67</th>
+          <th>+0.38%</th>
+          <th>0.56%</th>
+          <td>968.85/974.00</td>
+          <td>975.57/970.15</td>
+          <th>297,931</th>
+          <th>6,651.74</th>
+          <th>34.88</th>
+          <td><a href="javascript:void(0);" title="媒体内容">媒体内容</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=GOOG&country=usstock" target="_blank" title="谷歌">谷歌</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=GOOG&country=usstock" target="_blank">GOOG</a></td>
+          <th>950.96</th>
+          <th>+3.80</th>
+          <th>+0.40%</th>
+          <th>0.53%</th>
+          <td>947.16/952.00</td>
+          <td>952.98/948.00</td>
+          <th>301,032</th>
+          <th>6,502.82</th>
+          <th>34.11</th>
+          <td><a href="javascript:void(0);" title="互联网">互联网</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CHSCL&country=usstock" target="_blank" title="CHS Inc - Class B Cumulative Redeemable Preferred Stock, Series ">CHS Inc - Class B Cumulative Redeemable Preferred Stock, Series</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CHSCL&country=usstock" target="_blank">CHSCL</a></td>
+          <th>29.40</th>
+          <th>+0.02</th>
+          <th>+0.07%</th>
+          <th>0.24%</th>
+          <td>29.38/29.41</td>
+          <td>29.44/29.37</td>
+          <th>6,717</th>
+          <th>6,081.66</th>
+          <th>--</th>
+          <td><a href="javascript:void(0);" title="null">--</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=JHB&country=usstock" target="_blank" title="Nuveen High Income November 2021 Target Term Fund Nuveen High In">Nuveen High Income November 2021 Target Term Fund Nuveen High In</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=JHB&country=usstock" target="_blank">JHB</a></td>
+          <th>10.10</th>
+          <th>0.00</th>
+          <th>0.00%</th>
+          <th>0.40%</th>
+          <td>10.10/10.11</td>
+          <td>10.14/10.10</td>
+          <th>25,287</th>
+          <th>5,640.85</th>
+          <th>--</th>
+          <td><a href="javascript:void(0);" title="null">--</a></td>
+          <td><a href="javascript:void(0);">纽约交易所</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CHSCM&country=usstock" target="_blank" title="CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Sto">CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Sto</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CHSCM&country=usstock" target="_blank">CHSCM</a></td>
+          <th>28.60</th>
+          <th>+0.05</th>
+          <th>+0.18%</th>
+          <th>0.63%</th>
+          <td>28.55/28.52</td>
+          <td>28.70/28.52</td>
+          <th>2,914</th>
+          <th>5,624.35</th>
+          <th>--</th>
+          <td><a href="javascript:void(0);" title="null">--</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=MSFT&country=usstock" target="_blank" title="微软公司">微软公司</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=MSFT&country=usstock" target="_blank">MSFT</a></td>
+          <th>72.39</th>
+          <th>+0.62</th>
+          <th>+0.86%</th>
+          <th>0.61%</th>
+          <td>71.77/72.24</td>
+          <td>72.40/71.96</td>
+          <th>5,334,466</th>
+          <th>5,547.82</th>
+          <th>33.99</th>
+          <td><a href="javascript:void(0);" title="软件">软件</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=HSEA&country=usstock" target="_blank" title="HSBC Holdings, plc. Perpetual Sub Cap Secs">HSBC Holdings, plc. Perpetual Sub Cap Secs</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=HSEA&country=usstock" target="_blank">HSEA</a></td>
+          <th>27.17</th>
+          <th>-0.07</th>
+          <th>-0.26%</th>
+          <th>0.24%</th>
+          <td>27.24/27.22</td>
+          <td>27.24/27.17</td>
+          <th>18,337</th>
+          <th>5,314.52</th>
+          <th>388.14</th>
+          <td><a href="javascript:void(0);" title="null">--</a></td>
+          <td><a href="javascript:void(0);">纽约交易所</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CHSCO&country=usstock" target="_blank" title="CHS Inc - Class B Cumulative Redeemable Preferred Stock">CHS Inc - Class B Cumulative Redeemable Preferred Stock</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CHSCO&country=usstock" target="_blank">CHSCO</a></td>
+          <th>29.19</th>
+          <th>+0.06</th>
+          <th>+0.21%</th>
+          <th>0.11%</th>
+          <td>29.13/29.16</td>
+          <td>29.19/29.16</td>
+          <th>2,805</th>
+          <th>5,263.79</th>
+          <th>--</th>
+          <td><a href="javascript:void(0);" title="null">--</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CHSCN&country=usstock" target="_blank" title="CHS INC PFD B SRS 2">CHS INC PFD B SRS 2</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CHSCN&country=usstock" target="_blank">CHSCN</a></td>
+          <th>29.65</th>
+          <th>+0.15</th>
+          <th>+0.51%</th>
+          <th>0.17%</th>
+          <td>29.50/29.67</td>
+          <td>29.68/29.63</td>
+          <th>1,983</th>
+          <th>4,956.00</th>
+          <th>--</th>
+          <td><a href="javascript:void(0);" title="null">--</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CCD&country=usstock" target="_blank" title="Calamos Dynamic Convertible & Income Fund">Calamos Dynamic Convertible &amp; Income Fund</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CCD&country=usstock" target="_blank">CCD</a></td>
+          <th>20.27</th>
+          <th>-0.02</th>
+          <th>-0.10%</th>
+          <th>0.84%</th>
+          <td>20.29/20.44</td>
+          <td>20.44/20.27</td>
+          <th>35,727</th>
+          <th>4,946.70</th>
+          <th>--</th>
+          <td><a href="javascript:void(0);" title="null">--</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=AMZN&country=usstock" target="_blank" title="亚马逊公司">亚马逊公司</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=AMZN&country=usstock" target="_blank">AMZN</a></td>
+          <th>999.85</th>
+          <th>-0.78</th>
+          <th>-0.08%</th>
+          <th>0.76%</th>
+          <td>1000.63/1002.40</td>
+          <td>1004.45/996.89</td>
+          <th>773,875</th>
+          <th>4,721.25</th>
+          <th>204.05</th>
+          <td><a href="javascript:void(0);" title="互联网">互联网</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=FB&country=usstock" target="_blank" title="Facebook">Facebook</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=FB&country=usstock" target="_blank">FB</a></td>
+          <th>159.98</th>
+          <th>+0.72</th>
+          <th>+0.45%</th>
+          <th>0.51%</th>
+          <td>159.26/160.13</td>
+          <td>160.14/159.32</td>
+          <th>4,613,840</th>
+          <th>4,555.31</th>
+          <th>45.84</th>
+          <td><a href="javascript:void(0);" title="媒体内容">媒体内容</a></td>
+          <td><a href="javascript:void(0);">纳斯达克</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=BRK.B&country=usstock" target="_blank" title="伯克希尔-哈撒韦B">伯克希尔-哈撒韦B</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=BRK.B&country=usstock" target="_blank">BRK.B</a></td>
+          <th>168.78</th>
+          <th>-0.91</th>
+          <th>-0.54%</th>
+          <th>0.41%</th>
+          <td>169.69/168.90</td>
+          <td>169.21/168.52</td>
+          <th>758,986</th>
+          <th>4,208.31</th>
+          <th>0.01</th>
+          <td><a href="javascript:void(0);" title="保险">保险</a></td>
+          <td><a href="javascript:void(0);">纽约交易所</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=BRK.A&country=usstock" target="_blank" title="伯克希尔-哈撒韦">伯克希尔-哈撒韦</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=BRK.A&country=usstock" target="_blank">BRK.A</a></td>
+          <th>254,700.00</th>
+          <th>-1,300.00</th>
+          <th>-0.51%</th>
+          <th>0.29%</th>
+          <td>256000/255149</td>
+          <td>255149/254400</td>
+          <th>156</th>
+          <th>4,198.40</th>
+          <th>21.71</th>
+          <td><a href="javascript:void(0);" title="保险">保险</a></td>
+          <td><a href="javascript:void(0);">纽约交易所</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=BABA&country=usstock" target="_blank" title="阿里巴巴">阿里巴巴</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=BABA&country=usstock" target="_blank">BABA</a></td>
+          <th>150.94</th>
+          <th>+1.42</th>
+          <th>+0.95%</th>
+          <th>0.94%</th>
+          <td>149.52/150.12</td>
+          <td>151.09/149.69</td>
+          <th>4,306,044</th>
+          <th>3,806.78</th>
+          <th>69.56</th>
+          <td><a href="javascript:void(0);" title="null">--</a></td>
+          <td><a href="javascript:void(0);">纽约交易所</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=FMX&country=usstock" target="_blank" title="Fomento Economico Mexicano S.A.B. de C.V. ADS">Fomento Economico Mexicano S.A.B. de C.V. ADS</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=FMX&country=usstock" target="_blank">FMX</a></td>
+          <th>102.33</th>
+          <th>+2.13</th>
+          <th>+2.13%</th>
+          <th>3.68%</th>
+          <td>100.20/100.69</td>
+          <td>103.19/99.50</td>
+          <th>97,181</th>
+          <th>3,587.16</th>
+          <th>32.49</th>
+          <td><a href="javascript:void(0);" title="饮料">饮料</a></td>
+          <td><a href="javascript:void(0);">纽约交易所</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=JNJ&country=usstock" target="_blank" title="强生公司">强生公司</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=JNJ&country=usstock" target="_blank">JNJ</a></td>
+          <th>131.99</th>
+          <th>+0.13</th>
+          <th>+0.10%</th>
+          <th>0.66%</th>
+          <td>131.86/132.00</td>
+          <td>132.61/131.74</td>
+          <th>1,039,528</th>
+          <th>3,573.41</th>
+          <th>22.26</th>
+          <td><a href="javascript:void(0);" title="制药">制药</a></td>
+          <td><a href="javascript:void(0);">纽约交易所</a></td>
+        </tr>
+        <tr>
+          <td height="50"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=XOM&country=usstock" target="_blank" title="埃克森美孚公司">埃克森美孚公司</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=XOM&country=usstock" target="_blank">XOM</a></td>
+          <th>80.91</th>
+          <th>-0.07</th>
+          <th>-0.08%</th>
+          <th>0.79%</th>
+          <td>80.97/81.00</td>
+          <td>81.41/80.77</td>
+          <th>2,165,093</th>
+          <th>3,360.26</th>
+          <th>43.03</th>
+          <td><a href="javascript:void(0);" title="">--</a></td>
+          <td><a href="javascript:void(0);">纽约交易所</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=JPM&country=usstock" target="_blank" title="摩根大通公司">摩根大通公司</a></td>
+          <td><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=JPM&country=usstock" target="_blank">JPM</a></td>
+          <th>91.80</th>
+          <th>-1.30</th>
+          <th>-1.39%</th>
+          <th>1.59%</th>
+          <td>93.10/90.81</td>
+          <td>92.06/90.58</td>
+          <th>10,839,016</th>
+          <th>3,323.67</th>
+          <th>14.83</th>
+          <td><a href="javascript:void(0);" title="">--</a></td>
+          <td><a href="javascript:void(0);">纽约交易所</a></td>
+        </tr>
+		
+      </tbody>
+    </table>
+	
+  </div>
+</div>
+ 
+  
+  
+</div>
+
+ 
+
+<div id="nav">
+<div id="ffoot"></div>
+</body>
+</html>

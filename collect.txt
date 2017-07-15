@@ -1,0 +1,175 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>美国股市</title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+<!--
+a:link {
+	color: #990000;
+}
+a:visited {
+	color: #990000;
+}
+a:active {
+	color: #990000;
+}
+-->
+</style></head>
+
+<body>
+
+
+<div id="datu">
+  <div id="dtop">
+    <div id="menu">
+      <ul>
+        <li ><a href="sy.html">网站首页</a></li>
+        <li ><a href="qt.html">我的收藏</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="daohang1">
+    <div  id="sleft"><span class="wz1">我的自选股</span><br>
+      <table border="1">
+        <thead>
+          <tr>
+            <td width="210" height="40" class="ziti">名称</td>
+            <td width="41" class="ziti"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=symbol">代码</a></td>
+            <th width="45" class="ziti"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=lasttrade">最新价</a></th>
+            <th width="45" class="ziti"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=change">涨跌额</a></th>
+            <th width="39" class="ziti"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=chg">涨跌幅</a></th>
+            <th width="32" class="ziti"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&value=amplitude">振幅</a></th>
+            <td width="69" class="ziti">昨收/今开盘</td>
+            <td width="71" class="ziti">最高/最低价</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=V&country=usstock" target="_blank" title="维萨卡公司">维萨卡公司</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=V&country=usstock" target="_blank">V</a></td>
+            <th class="ziti">96.84</th>
+            <th class="ziti">+0.91</th>
+            <th class="ziti">+0.94%</th>
+            <th class="ziti">1.30%</th>
+            <td class="ziti">95.94/96.14</td>
+            <td class="ziti">97.37/96.12</td>
+          </tr>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=ORCL&country=usstock" target="_blank" title="甲骨文公司">甲骨文公司</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=ORCL&country=usstock" target="_blank">ORCL</a></td>
+            <th class="ziti">50.47</th>
+            <th class="ziti">+0.12</th>
+            <th class="ziti">+0.24%</th>
+            <th class="ziti">0.59%</th>
+            <td class="ziti">50.35/50.27</td>
+            <td class="ziti">50.56/50.27</td>
+          </tr>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=PFE&country=usstock" target="_blank" title="辉瑞制药公司">辉瑞制药公司</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=PFE&country=usstock" target="_blank">PFE</a></td>
+            <th class="ziti">33.44</th>
+            <th class="ziti">+0.16</th>
+            <th class="ziti">+0.48%</th>
+            <th class="ziti">0.74%</th>
+            <td class="ziti">33.28/33.27</td>
+            <td class="ziti">33.49/33.24</td>
+          </tr>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CVX&country=usstock" target="_blank" title="雪佛龙公司">雪佛龙公司</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=CVX&country=usstock" target="_blank">CVX</a></td>
+            <th class="ziti">103.92</th>
+            <th class="ziti">-0.21</th>
+            <th class="ziti">-0.20%</th>
+            <th class="ziti">0.83%</th>
+            <td class="ziti">104.13/104.38</td>
+            <td class="ziti">104.59/103.73</td>
+          </tr>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=EOCC&country=usstock" target="_blank" title="Empresa Nacional de Electricidad S.A. ">Empresa Nacional de Electricidad S.A.</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=EOCC&country=usstock" target="_blank">EOCC</a></td>
+            <th class="ziti">23.57</th>
+            <th class="ziti">+0.13</th>
+            <th class="ziti">+0.55%</th>
+            <th class="ziti">1.41%</th>
+            <td class="ziti">23.44/23.45</td>
+            <td class="ziti">23.78/23.45</td>
+          </tr>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=AVAL&country=usstock" target="_blank" title="GRUPO AVAL ACCIONES Y VALORES S.A.">GRUPO AVAL ACCIONES Y VALORES S.A.</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=AVAL&country=usstock" target="_blank">AVAL</a></td>
+            <th class="ziti">8.70</th>
+            <th class="ziti">+0.08</th>
+            <th class="ziti">+0.93%</th>
+            <th class="ziti">0.93%</th>
+            <td class="ziti">8.62/8.67</td>
+            <td class="ziti">8.75/8.67</td>
+          </tr>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=HSBC&country=usstock" target="_blank" title="汇丰控股公司">汇丰控股公司</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=HSBC&country=usstock" target="_blank">HSBC</a></td>
+            <th class="ziti">48.05</th>
+            <th class="ziti">-0.31</th>
+            <th class="ziti">-0.63%</th>
+            <th class="ziti">0.67%</th>
+            <td class="ziti">48.36/47.80</td>
+            <td class="ziti">48.08/47.76</td>
+          </tr>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=KO&country=usstock" target="_blank" title="可口可乐公司">可口可乐公司</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=KO&country=usstock" target="_blank">KO</a></td>
+            <th class="ziti">44.59</th>
+            <th class="ziti">+0.17</th>
+            <th class="ziti">+0.37%</th>
+            <th class="ziti">0.35%</th>
+            <td class="ziti">44.43/44.52</td>
+            <td class="ziti">44.65/44.49</td>
+          </tr>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=TSM&country=usstock" target="_blank" title="台湾积体电路制造公司">台湾积体电路制造公司</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=TSM&country=usstock" target="_blank">TSM</a></td>
+            <th class="ziti">36.03</th>
+            <th class="ziti">-0.12</th>
+            <th class="ziti">-0.32%</th>
+            <th class="ziti">1.00%</th>
+            <td class="ziti">36.15/36.13</td>
+            <td height="50" class="ziti">36.35/35.99</td>
+          </tr>
+          <tr>
+            <td height="40" class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=TI&country=usstock" target="_blank" title="意大利电信">意大利电信</a></td>
+            <td class="ziti"><a href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=TI&country=usstock" target="_blank">TI</a></td>
+            <th class="ziti">9.31</th>
+            <th class="ziti">-0.24</th>
+            <th class="ziti">-2.51%</th>
+            <th class="ziti">3.25%</th>
+            <td class="ziti">9.55/9.53</td>
+            <td class="ziti">9.58/9.27</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
+    </div>
+	  <div id="sright">
+	    <p><img src="images/x.jpg" alt="t" width="184" height="12"></p>
+	    <p class="wz1">我的信息</p>
+	    <p class="wz1">我的自选股</p>
+	    <p class="wz1">股票自选</p>
+	    <p class="wz1">退出</p>
+	    <p align="justify" class="wz2">&nbsp;</p>
+	  </div>
+  </div>
+  <div id="dfoot">© 2017 美国股票市场 </div>
+</div>
+ 
+  
+  
+</div>
+
+ 
+
+<div id="nav">
+<div id="ffoot"></div>
+</body>
+</html>
