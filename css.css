@@ -1,0 +1,269 @@
+@charset "utf-8";
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: "";
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-image: url(../images/bg.jpg);
+	
+}  
+
+  
+#datu{
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	height:1000px;
+}
+
+#daohang1{
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 730px;
+	margin-top: 0px;
+	border: medium none #000000;
+	
+	
+}
+#dtop{
+	width: 980px;
+	height: 200px;
+	margin: 0px;
+	background-image: url(../images/2.jpg);
+	
+	
+}
+#dfoot{
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 60px;
+	margin-top: 0px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 40px;
+	color: #FFFFFF;
+	
+	
+}
+ #sleft {
+	float: left;
+	width: 536px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-left: 100px;
+	height: 573px;
+	padding: 0px;
+	border: thin none #999999;
+	background-color: #FFFFFF;
+}
+
+ #sright {
+	float: right;
+	width: 184px;
+	margin-top: 5px;
+	margin-right: 100px;
+	margin-left: 0px;
+	height: auto;
+	padding: 0px;
+	border: thin none #000000;
+	background-color: #FFFFFF;
+}
+
+.a_link {
+	COLOR: #3366cc
+}
+A:hover {
+	COLOR: #999999; TEXT-DECORATION: underline
+}
+a.white:hover {
+    font-family: "";
+    font-size: 9pt;
+    color: #906B37;
+    text-decoration: underline;
+}
+a.white {
+    font-family: "";
+    font-size: 9pt;
+    color: #FFFFFF;
+    filter: DropShadow(Color=#eeeeee, OffX=1, OffY=1, Positive=2);
+    text-decoration: none;
+}
+a.white:link {
+    font-family: "";
+    font-size: 9pt;
+    color: #FFFFFF;
+    filter: DropShadow(Color=#0000FF, OffX=1, OffY=1, Positive=2);
+    text-decoration: none;
+} 
+a.white:hover {
+    font-family: "";
+    font-size: 9pt;
+    color: #FFFFFF;
+    text-decoration: underline;
+}.border {
+	border: 1px solid #D0D0D0;
+} 
+.ziti {
+	font-family: "";
+	font-size: 12px;
+	line-height: 20px;
+}
+.table_border_shangxia {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #D0D0D0;
+	border-right-color: #D0D0D0;
+	border-bottom-color: #D0D0D0;
+	border-left-color: #D0D0D0;
+}
+
+a.white2:hover {
+    font-family: "";
+    font-size: 9pt;
+    color: #000000;
+    text-decoration: underline;
+}
+a.white2 {
+    font-family: "";
+    font-size: 9pt;
+    color: #000000;
+    filter: DropShadow(Color=#eeeeee, OffX=1, OffY=1, Positive=2);
+    text-decoration: none;
+}
+a.white2:link {
+    font-family: "";
+    font-size: 9pt;
+    color: #000000;
+    filter: DropShadow(Color=#0000FF, OffX=1, OffY=1, Positive=2);
+    text-decoration: none;
+} 
+a.white2:hover {
+    font-family: "";
+    font-size: 9pt;
+    color: #000000;
+    text-decoration: underline;
+	
+}
+.wenzi1 {
+	font-family: "΢ź";
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+
+a.white3 {
+    font-family: "微软雅黑";
+    font-size: 11pt;
+    color: #FFFFFF;
+    filter: DropShadow(Color=#eeeeee, OffX=1, OffY=1, Positive=2);
+    text-decoration: none;
+}
+
+a.white3:hover {
+    font-family: "微软雅黑";
+    font-size: 11pt;
+    color: #FFCC33;
+    text-decoration: underline;
+	
+}
+
+
+#box{
+	width:300px;
+	float: right;
+	height: 40px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+
+#menu {
+	width: 600px;
+	height: 45px;
+	margin-top: 150px;
+	margin-right: 0px;
+	margin-bottom: 0;
+	margin-left: 180px;
+	float: left;
+	background-repeat: repeat;
+	background-position: left center;
+	padding: 0px;
+	clear: both;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+	line-height: normal;
+	float: left;
+}
+
+#menu li {
+	display: inline;
+	text-align: center;
+	float: left;
+}
+
+#menu a {
+	height: 33px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	text-align: left;
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #f5ecd4;
+	padding-top: 10px;
+	padding-right: 35px;
+	padding-bottom: 0px;
+	padding-left: 35px;
+}
+
+#menu a:hover, #menu .active a {
+	color: #FF0000;
+}
+.wz1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.wz2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	color: #000000;
+}
+.wz3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+}
+#bb {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	line-height: 30px;
+	background-color: #FF0000;
+	height: 30px;
+	width: 50px;
+}
